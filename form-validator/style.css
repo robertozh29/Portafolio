@@ -1,3 +1,4 @@
+
 :root{
     --success-color:#2ecc71;
     --error-color:#e74c3d;
@@ -9,13 +10,30 @@
     padding: 0;
 }
 
+a{
+    color:#fff;
+    text-decoration: none;
+}
+
 body{
     background-color: #f9fafb;
     font-family: 'Open sans',sans-serif;
+}
+
+.back{
+   height:8vh;
+   background-color: #242943;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   padding-left: 15px;
+}
+
+.main{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 92vh;
 }
 
 .container{
