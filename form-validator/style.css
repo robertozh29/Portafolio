@@ -1,4 +1,4 @@
-
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 :root{
     --success-color:#2ecc71;
     --error-color:#e74c3d;
@@ -18,15 +18,6 @@ a{
 body{
     background-color: #f9fafb;
     font-family: 'Open sans',sans-serif;
-}
-
-.back{
-   height:8vh;
-   background-color: #242943;
-   color: #fff;
-   display: flex;
-   align-items: center;
-   padding-left: 15px;
 }
 
 .main{
